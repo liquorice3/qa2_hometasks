@@ -22,8 +22,7 @@ public class HomeworkProject2 {
         byte weightInKilograms = 62;
 
         System.out.println("My name is " + firstName + " and I'm " + age + ". My birthday is " + dateOfBirth + ".");
-        //"I am a female with a height of 1.73 meters and a weight of 62 kilograms."
-        System.out.println("I am a " + gender + " with a height of " + heightInMeters + " meters and a weight of " + weightInKilograms + " kilograms." );
+        System.out.println("I am a " + heightInMeters + "m tall " + gender + " weighing " + weightInKilograms + " kg." );
     }
 
     @Test
