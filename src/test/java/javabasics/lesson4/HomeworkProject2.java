@@ -32,8 +32,10 @@ public class HomeworkProject2 {
 
         long ageInDays = ChronoUnit.DAYS.between(dateOfBirth, currentDate);
         long ageInMonths = ChronoUnit.MONTHS.between(dateOfBirth, currentDate);
+        long ageInYears = ChronoUnit.YEARS.between(dateOfBirth, currentDate);
 
         System.out.println("Возраст в днях: " + ageInDays);
         System.out.println("Возраст в месяцах: " + ageInMonths);
+        System.out.println("Возраст в годах: " + ageInYears);
     }
 }
